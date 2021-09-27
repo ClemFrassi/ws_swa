@@ -6,14 +6,14 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get",
-        "post"
+        "get"
       ]
     },
     {
       "type": "http",
       "direction": "out",
-      "name": "res"
+      "name": "res",
+      "route": "tasks"
     }
   ]
 }
